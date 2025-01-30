@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.home, .launch {
+  text-align: center;
+  padding: 2rem;
+}
+
+.items-list {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-card h2 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.shoe-detail {
+  text-align: center;
+  padding: 2rem;
+}
+
+.shoe-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.shoe-detail img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
